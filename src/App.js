@@ -64,27 +64,6 @@ function App() {
       </div>
     </Router>
   );
-  //   return (
-  //     <>
-  //       <Navbar
-  //         title="Textutils"
-  //         Name="Home"
-  //         about="About"
-  //         mode={mode}
-  //         toggleMode={toggleMode}
-  //       />
-
-  //       <Alert alert={alert} />
-
-  //       <div className="container">
-  //         <TextForm
-  //           showAlert={showAlert}
-  //           title="Enter your text here"
-  //           mode={mode}
-  //         />
-  //       </div>
-  //     </>
-  //   );
 }
 
 export default App;
