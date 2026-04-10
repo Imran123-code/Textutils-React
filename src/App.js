@@ -7,6 +7,7 @@ import TextForm from "./components/TextForm1";
 import About from "./components/About1";
 import Alert from "./components/Alert";
 import React, { useState } from "react";
+import Footer from "./components/Footer"
 // import { Link } from "react-router-dom";
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
           />
           <Route exact path="/about" element={<About />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
