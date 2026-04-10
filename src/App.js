@@ -37,7 +37,7 @@ function App() {
     }
   };
   return (
-    <Router basename="/Textutils-react">
+    <Router>
       <Navbar
         title="Textutils"
         Name="Home"
