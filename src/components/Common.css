@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  background: linear-gradient(135deg, #f3f4f6, #dbeafe, #bfdbfe);
+
+}
+.footer hr{
+    width: 400px;
+    height: 5px;
+    color: black;
+}

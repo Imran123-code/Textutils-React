@@ -1,11 +1,12 @@
 import React from 'react'
-
+import  "./Common.css"
 const Footer = () => {
-  return (
-    <div style={{display:'flex',alignContent:"center",justifyContent:'center',alignItems:"center"}}>
-      <p>All rights are reversed @2026</p>
-    </div>
-  )
+    return (
+        <div className='footer'>
+            <hr />
+            <p>All rights are reserved © 2026 | Developed by Imran with <span style={{ color: "red" }}>❤</span></p>
+        </div>
+    )
 }
 
 export default Footer
